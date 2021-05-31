@@ -7,3 +7,8 @@
 	path = xmarts/xmarts-employee-information-csbp
 	url = git@github.com:xmarts/xmarts-employee-information-csbp.git
 	branch = prueba_14_pedro
+
+[submodule "xmarts/xmarts_appraisal"]
+	path = xmarts/xmarts_appraisal
+	url = git@github.com:xmarts/xmarts_appraisal.git
+	branch = 14.0
