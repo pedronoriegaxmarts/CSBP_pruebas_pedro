@@ -12,3 +12,8 @@
 	path = xmarts/xmarts_appraisal
 	url = git@github.com:xmarts/xmarts_appraisal.git
 	branch = 14.0
+
+[submodule "xmarts/xmarts_e_learning"]
+	path = xmarts/xmarts_e_learning
+	url = git@github.com:xmarts/xmarts_e_learning.git
+	branch = 14.0
