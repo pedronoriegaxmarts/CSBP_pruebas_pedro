@@ -12,3 +12,7 @@
 	path = xmarts/xmarts_e_learning
 	url = git@github.com:xmarts/xmarts_e_learning.git
 	branch = 14.0
+[submodule "xmarts/xmarts-employee-information-csbp"]
+	path = xmarts/xmarts-employee-information-csbp
+	url = git@github.com:xmarts/xmarts-employee-information-csbp.git
+	branch = 14.0
