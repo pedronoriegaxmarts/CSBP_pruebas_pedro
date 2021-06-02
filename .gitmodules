@@ -21,3 +21,8 @@
 	path = xmarts/xma-service-desk
 	url = git@github.com:xmarts/xma-service-desk.git
 	branch = 14.0
+
+[submodule "xmarts/xma-service-desk-ata"]
+	path = xmarts/xma-service-desk-ata
+	url = git@github.com:xmarts/xma-service-desk-ata.git
+	branch = 14.0
