@@ -36,3 +36,8 @@
 	path = xmarts/xma_medical_core_bo
 	url = git@github.com:xmarts/xma_medical_core_bo.git
 	branch = 14.0
+
+[submodule "xmarts/xmarts_documents_oym"]
+	path = xmarts/xmarts_documents_oym
+	url = git@github.com:xmarts/xmarts_documents_oym.git
+	branch = pruebas_pedro
