@@ -41,3 +41,8 @@
 	path = xmarts/xmarts_documents_oym
 	url = git@github.com:xmarts/xmarts_documents_oym.git
 	branch = pruebas_pedro
+
+[submodule "xmarts/xma_edenred_venezuela"]
+	path = xmarts/xma_edenred_venezuela
+	url = git@github.com:xmarts/xma_edenred_venezuela.git
+	branch = 14.0
