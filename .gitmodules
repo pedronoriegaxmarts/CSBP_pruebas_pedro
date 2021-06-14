@@ -17,3 +17,8 @@
 	path = xmarts/xmarts_documents_oym
 	url = git@github.com:xmarts/xmarts_documents_oym.git
 	branch = 14.0
+
+[submodule "xmarts/multi-branch"]
+	path = xmarts/multi-branch
+	url = git@github.com:xmarts/multi-branch.git
+	branch = 14.0
