@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo noupdate="0">
+        <record id="email_template_certificate_elearning" model="mail.template">
+            <field name="name">Certificado de capacitaciones</field>
+            <field name="email_from">${(object.partner_id.company_id.email or user.email) | safe}</field>
+            <field name="subject">Certificado de aprobación</field>
+            <field name="email_to">${object.partner_id.email or ' ' | safe}</field>
+            <field name="model_id" ref="website_slides.model_slide_channel_partner"/>
+            <field name="auto_delete" eval="False"/>
+            <field name="lang"></field>
+            <field name="body_html"><![CDATA[
+
+            ]]></field>
+        </record>
+</odoo>

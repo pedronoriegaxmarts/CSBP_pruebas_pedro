@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="report_certificate_document">
+    <t t-call="web.internal_layout">
+        <div class="page">
+            <div class="oe_structure"/>
+
+            <t t-if="o.completed == True">
+                     <table style="background-color:white; width: 100%;" cellspacing="0" cellpadding="0" border="1">
+                         <tbody>
+                             <tr>
+                                <td>
+                                <center><img src="/xmarts_elearning_certificate/static/src/img/csbp.png" style="padding: 0px; margin: 0px; height:auto; width: 50%;"/></center>
+                                </td>
+                                <td>
+                                <center><img src="/xmarts_elearning_certificate/static/src/img/experiense.png" style="padding: 0px; margin: 0px; height:auto; width:25%;"/></center>
+                                </td>
+                                <td>
+                                <center><img src="/xmarts_elearning_certificate/static/src/img/conecta.png" style="padding: 0px; margin: 0px; height:auto; width: 50%;"/></center>
+                                </td>
+                           </tr>
+                         </tbody>
+
+                     </table>
+                     <table style="text-transform: uppercase; background-color:white; width: 100%; " cellspacing="0" cellpadding="0" border="1">
+                        <tbody>
+                            <tr>
+                            <td style="font-size:13px; font-weight: bold;" colspan="3" >
+                                        <div><br></br>
+                                            <div align="center"><b><u><font style="font-size:26px; ">CERTIFICADO DE PARTICIPACIÓN</font></u><br/></b><u>
+                                            <span style="font-size:10px;">LA CAJA DE SALUD DE LA BANCA PRIVADA CERTIFICA QUE EL (LA) SR(A):</span></u><br/>
+                                            </div>
+                                        </div>
+                            </td>
+
+                          </tr>
+                          <tr>
+                            <td colspan="3" >
+                                        <div style="font-weight: bold;background:url(/xmarts_elearning_certificate/static/src/img/fondo_csbp.png); background-repeat: no-repeat;
+                                         background-size:100% 100%;" >
+                                            <br></br>
+                                            <div align="center">
+                                             <u>
+                                            <span style="font-size:18px;"><t t-esc="o.partner_id.name"/></span></u><br/>
+                                            </div>
+                                            <div align="center">
+                                             <font style="font-size:12px;">Ha participado del taller:</font><br/></div><br/>
+                                                <div align="center">
+                                                <span style="font-weight: bold;font-size:20px;">"<t t-esc="o.channel_id.name"/>"</span>
+                                                <font style="font-weight: bold;font-size:20px;"><br/>Gestión de cambio</font>
+                                            </div>
+                                            <br/><br></br>
+                                        </div>
+                            </td>
+
+                          </tr>
+                          <tr style="font-size:11px;">
+                          <td>
+                              <center>
+                                  <span>
+                                      <img t-attf-src="data:image/*;base64,{{o.channel_id.representative_csbp.user_id.sign_signature}}" style="width:25%;"/>
+                                  </span><br/>
+                                  <span><t t-esc="o.channel_id.representative_csbp.name"/></span><br/>
+                                  <span><t t-esc="o.channel_id.representative_csbp.job_id.name"/></span><br/>
+                                  <span>CSBP</span>
+                          </center>
+                          </td>
+                          <td>
+                          </td>
+                          <td>
+                              <center>
+                                   <span>
+                                      <img t-attf-src="data:image/*;base64,{{o.channel_id.representative_course.sign_signature}}" style="width:25%;"/>
+                                  </span><br/>
+                                  <span><t t-esc="o.channel_id.representative_course.partner_id.name"/></span><br/>
+                                  <span><t t-esc="o.channel_id.representative_course.partner_id.function"/></span><br/>
+                                  <span><t t-esc="o.channel_id.representative_course.partner_id.commercial_company_name"/></span>
+                              </center>
+                          </td>
+                          </tr>
+                            <tr>
+                                <td colspan="3"> <center><font style="font-size:10px;"><br/>La Paz,<span t-esc="o.create_date.strftime('de %B del %Y')" /></font></center></td>
+                            </tr>
+
+                          </tbody>
+                        </table>
+
+               </t>
+
+
+        </div>
+    </t>
+    <t t-if="o.completed == False">
+        Curso no concluido
+    </t>
+</template>
+
+<template id="report_certificate">
+    <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="xmarts_elearning_certificate.report_certificate_document" t-lang="o.partner_id.lang"/>
+        </t>
+    </t>
+
+</template>
+</odoo>

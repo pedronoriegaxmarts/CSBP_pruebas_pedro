@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="inherit_slide_channel_representative_form" model="ir.ui.view">
+        <field name="name">inherit.slide.channel.representative.form</field>
+        <field name="model">slide.channel</field>
+        <field name="inherit_id" ref="website_slides.view_slide_channel_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@class='oe_title']" position="after">
+
+                 <div>
+                     <group>
+                         <group>
+                         <field name="representative_csbp" domain="[('job_id.name', 'ilike', 'Gerente')]"/>
+                         <field name="representative_course" domain="[('active', '=', True),('share', '=', True)]"/>
+                         </group>
+                         <group>
+                         </group>
+                     </group>
+
+                 </div>
+
+
+            </xpath>
+        </field>
+    </record>
+</odoo>
+
+
+

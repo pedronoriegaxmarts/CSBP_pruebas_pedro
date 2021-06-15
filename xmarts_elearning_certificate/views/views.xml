@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="action_email_certificate" model="ir.actions.server" >
+        <field name="name">Envia certificado por email</field>
+        <field name="model_id" ref="website_slides.model_slide_channel_partner" />
+        <field name="binding_model_id" ref="website_slides.model_slide_channel_partner"/>
+        <field name="state">code</field>
+        <field name="code">
+                records.action_email_certificate()
+
+        </field>
+
+    </record>
+
+      <record id="paperformat_certificate" model="report.paperformat">
+            <field name="name">Time Off Summary2</field>
+            <field name="default" eval="True"/>
+            <field name="format">custom</field>
+            <field name="page_height">280</field>
+            <field name="page_width">180</field>
+            <field name="orientation">Landscape</field>
+            <field name="margin_top">10</field>
+            <field name="margin_bottom">13</field>
+            <field name="margin_left">5</field>
+            <field name="margin_right">5</field>
+            <field name="header_line" eval="False"/>
+            <field name="header_spacing">20</field>
+            <field name="dpi">90</field>
+     </record>
+
+    <record id="certificate_pdf" model="ir.actions.report" >
+            <field name="name">Certificado</field>
+            <field name="model">slide.channel.partner</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">xmarts_elearning_certificate.report_certificate</field>
+            <field name="report_file">xmarts_elearning_certificate.report_certificate</field>
+            <field name="paperformat_id" ref="xmarts_elearning_certificate.paperformat_certificate"/>
+            <field name="binding_model_id" ref="website_slides.model_slide_channel_partner" />
+            <field name="print_report_name">('Certificado - %s' %(object.channel_id.name))</field>
+            <field name="binding_type">report</field>
+    </record>
+
+
+
+
+</odoo>
