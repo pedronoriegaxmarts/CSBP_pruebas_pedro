@@ -32,3 +32,8 @@
 	path = xmarts/xma-medical-core
 	url = git@github.com:xmarts/xma-medical-core.git
 	branch = 14.0
+
+[submodule "xmarts/xma_medical_core_bo"]
+	path = xmarts/xma_medical_core_bo
+	url = git@github.com:xmarts/xma_medical_core_bo.git
+	branch = 14.0
