@@ -37,3 +37,8 @@
 	path = xmarts/xma_medical_core_bo
 	url = git@github.com:xmarts/xma_medical_core_bo.git
 	branch = 14.0
+
+[submodule "xmarts/bi_odoo_multi_branch_hr"]
+	path = xmarts/bi_odoo_multi_branch_hr
+	url = git@github.com:xmarts/bi_odoo_multi_branch_hr.git
+	branch = 14.0
