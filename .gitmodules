@@ -42,3 +42,7 @@
 	path = xmarts/xmarts_documents_correspondence
 	url = git@github.com:xmarts/xmarts_documents_correspondence.git
 	branch = 14.0
+[submodule "xmarts/xmarts_appraisal"]
+	path = xmarts/xmarts_appraisal
+	url = git@github.com:xmarts/xmarts_appraisal.git
+	branch = 14.0
