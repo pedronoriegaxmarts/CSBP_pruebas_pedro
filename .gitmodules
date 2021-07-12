@@ -46,3 +46,8 @@
 	path = xmarts/xmarts_appraisal
 	url = git@github.com:xmarts/xmarts_appraisal.git
 	branch = 14.0
+
+[submodule "xmarts/helpdesk_ticket_classification"]
+	path = xmarts/helpdesk_ticket_classification
+	url = git@github.com:xmarts/helpdesk_ticket_classification.git
+	branch = 14.0
