@@ -17,3 +17,7 @@
 	path = xmarts/xma-service-desk
 	url = git@github.com:xmarts/xma-service-desk.git
 	branch = 14.0-pedro
+[submodule "xmarts/xmarts_appraisal"]
+	path = xmarts/xmarts_appraisal
+	url = git@github.com:xmarts/xmarts_appraisal.git
+	branch = 14.0
