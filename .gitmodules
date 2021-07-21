@@ -1,0 +1,4 @@
+[submodule "xmarts/xma_no_afiliate"]
+	path = xmarts/xma_no_afiliate
+	url = git@github.com:xmarts/xma_no_afiliate.git
+	branch = 14.0
