@@ -56,3 +56,8 @@
 	path = xmarts/xma_viatical_control
 	url = git@github.com:xmarts/xma_viatical_control.git
 	branch = 14.0
+
+[submodule "xmarts/xma_website_publish_access"]
+	path = xmarts/xma_website_publish_access
+	url = git@github.com:xmarts/xma_website_publish_access.git
+	branch = 14.0
