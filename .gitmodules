@@ -66,3 +66,8 @@
 	path = xmarts/xma_no_afiliate
 	url = git@github.com:xmarts/xma_no_afiliate.git
 	branch = 14.0
+
+[submodule "xmarts/xmarts_branch_appraisal"]
+	path = xmarts/xmarts_branch_appraisal
+	url = git@github.com:xmarts/xmarts_branch_appraisal.git
+	branch = 14.0
