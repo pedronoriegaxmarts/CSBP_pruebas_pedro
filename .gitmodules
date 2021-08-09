@@ -21,3 +21,8 @@
 	path = xmarts/xmarts_appraisal
 	url = git@github.com:xmarts/xmarts_appraisal.git
 	branch = 14.0
+
+[submodule "xmarts/SLI"]
+	path = xmarts/SLI
+	url = git@github.com:xmarts/SLI.git
+	branch = 14.0-fletex
