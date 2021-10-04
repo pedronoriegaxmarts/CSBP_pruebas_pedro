@@ -13,10 +13,6 @@
 	url = git@github.com:xmarts/xmarts-employee-information-csbp.git
 	branch = 14.0
 
-[submodule "xmarts/xma-service-desk"]
-	path = xmarts/xma-service-desk
-	url = git@github.com:xmarts/xma-service-desk.git
-	branch = 14.0-pedro
 [submodule "xmarts/xmarts_appraisal"]
 	path = xmarts/xmarts_appraisal
 	url = git@github.com:xmarts/xmarts_appraisal.git
