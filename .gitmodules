@@ -61,3 +61,8 @@
 	path = xmarts/xma-gastos
 	url = git@github.com:xmarts/xma-gastos.git
 	branch = 14.0
+
+[submodule "xmarts/sh-message"]
+	path = xmarts/sh-message
+	url = git@github.com:xmarts/sh-message.git
+	branch = 14.0
