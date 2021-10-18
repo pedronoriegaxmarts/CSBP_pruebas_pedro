@@ -66,3 +66,8 @@
 	path = xmarts/sh-message
 	url = git@github.com:xmarts/sh-message.git
 	branch = 14.0
+
+[submodule "xmarts/xma_poa"]
+	path = xmarts/xma_poa
+	url = git@github.com:xmarts/xma_poa.git
+	branch = 14.0-cesar
