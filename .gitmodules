@@ -86,3 +86,8 @@
 	path = xmarts/xma_project_state
 	url = git@github.com:xmarts/xma_project_state.git
 	branch = 14.0-cesar
+
+[submodule "xmarts/xma_project_state_classification"]
+	path = xmarts/xma_project_state_classification
+	url = git@github.com:xmarts/xma_project_state_classification.git
+	branch = 14.0-cesar
