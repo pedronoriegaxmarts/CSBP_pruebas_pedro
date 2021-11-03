@@ -7,3 +7,8 @@
 	path = xmarts/xmarts-employee-information-csbp
 	url = git@github.com:xmarts/xmarts-employee-information-csbp.git
 	branch = 14.0
+
+[submodule "xmarts/xma_pei"]
+	path = xmarts/xma_pei
+	url = git@github.com:xmarts/xma_pei.git
+	branch = 14.0-cesar
