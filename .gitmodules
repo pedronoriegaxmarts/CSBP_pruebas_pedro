@@ -1,4 +1,0 @@
-[submodule "xmarts/xmarts_branch_appraisal"]
-	path = xmarts/xmarts_branch_appraisal
-	url = git@github.com:xmarts/xmarts_branch_appraisal.git
-	branch = 14.0
