@@ -8,11 +8,6 @@
 	url = git@github.com:xmarts/xmarts-employee-information-csbp.git
 	branch = 14.0
 
-[submodule "xmarts/multi-branch"]
-	path = xmarts/multi-branch
-	url = git@github.com:xmarts/multi-branch.git
-	branch = 14.0
-
 [submodule "xmarts/xma-service-desk"]
 	path = xmarts/xma-service-desk
 	url = git@github.com:xmarts/xma-service-desk.git
