@@ -8,11 +8,6 @@
 	url = git@github.com:xmarts/xmarts_appraisal.git
 	branch = 14.0
 
-[submodule "xmarts/xma_viatical_control"]
-	path = xmarts/xma_viatical_control
-	url = git@github.com:xmarts/xma_viatical_control.git
-	branch = 14.0
-
 [submodule "xmarts/xmarts_branch_appraisal"]
 	path = xmarts/xmarts_branch_appraisal
 	url = git@github.com:xmarts/xmarts_branch_appraisal.git
