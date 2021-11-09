@@ -42,11 +42,6 @@
 	url = git@github.com:xmarts/xma-gastos.git
 	branch = 14.0
 
-[submodule "xmarts/sh-message"]
-	path = xmarts/sh-message
-	url = git@github.com:xmarts/sh-message.git
-	branch = 14.0
-
 [submodule "xmarts/xma_poa"]
 	path = xmarts/xma_poa
 	url = git@github.com:xmarts/xma_poa.git
