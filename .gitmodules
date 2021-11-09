@@ -33,11 +33,6 @@
 	url = git@github.com:xmarts/xmarts_appraisal.git
 	branch = 14.0
 
-[submodule "xmarts/helpdesk_ticket_classification"]
-	path = xmarts/helpdesk_ticket_classification
-	url = git@github.com:xmarts/helpdesk_ticket_classification.git
-	branch = 14.0
-
 [submodule "xmarts/xma_viatical_control"]
 	path = xmarts/xma_viatical_control
 	url = git@github.com:xmarts/xma_viatical_control.git
