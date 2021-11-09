@@ -3,11 +3,6 @@
 	url = git@github.com:xmarts/xmarts-employee-information-csbp.git
 	branch = 14.0
 
-[submodule "xmarts/xma_medical_core_bo"]
-	path = xmarts/xma_medical_core_bo
-	url = git@github.com:xmarts/xma_medical_core_bo.git
-	branch = 14.0
-
 [submodule "xmarts/xmarts_appraisal"]
 	path = xmarts/xmarts_appraisal
 	url = git@github.com:xmarts/xmarts_appraisal.git
