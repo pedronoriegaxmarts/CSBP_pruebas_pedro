@@ -37,11 +37,6 @@
 	path = xmarts/xmarts_branch_appraisal
 	url = git@github.com:xmarts/xmarts_branch_appraisal.git
 	branch = 14.0
-[submodule "xmarts/xma-gastos"]
-	path = xmarts/xma-gastos
-	url = git@github.com:xmarts/xma-gastos.git
-	branch = 14.0
-
 [submodule "xmarts/xma_poa"]
 	path = xmarts/xma_poa
 	url = git@github.com:xmarts/xma_poa.git
