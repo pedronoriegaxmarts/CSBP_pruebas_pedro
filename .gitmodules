@@ -22,11 +22,6 @@
 	url = git@github.com:xmarts/xma_poa.git
 	branch = 14.0-cesar
 
-[submodule "xmarts/xma_pei"]
-	path = xmarts/xma_pei
-	url = git@github.com:xmarts/xma_pei.git
-	branch = 14.0-cesar
-
 [submodule "xmarts/xma_project_classification"]
 	path = xmarts/xma_project_classification
 	url = git@github.com:xmarts/xma_project_classification.git
