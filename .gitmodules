@@ -1,4 +1,0 @@
-[submodule "xmarts/l10n_ec"]
-	path = xmarts/l10n_ec
-	url = git@github.com:xmarts/l10n_ec.git
-	branch = 14.0-einvoice
